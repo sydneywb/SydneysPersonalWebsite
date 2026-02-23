@@ -1,0 +1,76 @@
+h1 {
+    font-family: "Coral Pixels", serif;
+    padding-left: 10px;
+}
+
+.coral-pixels-regular {
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navigation-bar {
+    font-family: "Coral Pixels", serif;
+    display: inline-block;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    left: 130px;
+    top: 25px;}
+.navigation-bar:hover {
+    text-shadow: 2px 2px #b5b5b5;}
+a {
+    text-decoration: none;}
+#name {
+    position: absolute;
+    left: 130px;
+    top: 25px;}
+#face {
+    position: absolute;}
+#button1 {
+    left: 430px;
+    top: 57px;}
+#button2 {
+    left: 530px;
+    top: 57px;}
+#button3 {
+    left: 630px;
+    top: 57px;}
+#button4 {
+    left: 730px;
+    top: 57px;}
+
+.page-content {
+    position: absolute;
+    top: 150px;
+    left: 130px;
+    font-family: serif;
+}
+
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.tooltip-text {
+    /* display: inline; */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    padding: 5px;
+    font-style: italic;
+    top: 5px;
+    left: 5px;
+    margin-right: 10px;
+    
+}
+
+.tooltip-container:hover .tooltip-text{
+    opacity: 1;
+}
